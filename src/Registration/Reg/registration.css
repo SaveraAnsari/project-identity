@@ -1,0 +1,99 @@
+.registerForm {
+  /* background: linear-gradient(
+    90deg,
+    #bbd2c5,
+    #536976,
+    #292e49,
+    rgb(0, 166, 255)
+  ); */
+  background-image: url("../../assets/16.jpeg");
+  /* background-repeat: no-repeat; */
+
+  /* generate image for website form background digital attractive professional look */
+  /* animation: bg-a 6s linear infinite; */
+
+  /* background-image: url("../../assets/bg.gif"); */
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: 10s all;
+  color: white;
+}
+/* @keyframes bg-a {
+  0% {
+    background-image: url("../../assets/bg.gif");
+    z-index: 1;
+  }
+  100% {
+    background-image: url("../../assets/background.png");
+  }
+} */
+/* .registerForm input {
+  width: 25vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1.5px solid black;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.335),
+    -10px -10px 10px rgba(0, 0, 0, 0.207);
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+} */
+/* .registerForm input::placeholder {
+  color: white;
+}
+.registerForm input:focus {
+  color: gold;
+} */
+.registerForm input {
+  width: 28vw;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  margin: 10px;
+  
+}
+.b {
+  border: 2.5px solid rgb(0, 0, 0);
+
+  /* border: none; */
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(201, 202, 202, 0.522);
+  /* animation: bo 5s infinite; */
+  box-shadow: 30px 30px 200px rgba(0, 96, 137, 0.46),
+    -30px -20px 200px rgba(0, 96, 137, 0.46);
+}
+@keyframes bo {
+  0% {
+    border-color: gold;
+  }
+  100% {
+    border-color: black;
+  }
+}
+.registerForm button {
+  padding: 15px;
+  margin: 10px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 30px 30px 100px rgba(3, 61, 91, 0.761),
+    -30px -20px 100px rgba(3, 61, 91, 0.761);
+}
+.registerForm h1 {
+  color: rgb(255, 255, 255);
+  z-index: 1;
+}

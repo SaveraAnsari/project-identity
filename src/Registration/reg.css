@@ -1,0 +1,66 @@
+#regg {
+  display: flex;
+  margin: 0;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 100px;
+  padding-top: 20px;
+  padding-left: 50px;
+  background: linear-gradient(45deg, #0c7a57ae, #002b1da8);
+}
+
+.img12 {
+  width: 45vw;
+  height: 40vh;
+  border: none;
+  border-radius: 200px;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    transparent,
+    rgba(255, 255, 0, 0.484),
+    transparent,
+    rgba(0, 128, 0, 0.549),
+    transparent
+  );
+  margin: 20px;
+  padding: 10px;
+  animation: 3s color linear infinite;
+  transition: 2s ease-in-out all;
+  text-align: center;
+}
+.img12:hover {
+  border-radius: 300px;
+  /* padding: 50px; */
+  scale: 1.25 1.25;
+  margin: 100px;
+}
+@keyframes color {
+  to {
+    background: linear-gradient(
+      45deg,
+      rgba(255, 255, 0, 0.282),
+      rgba(111, 111, 35, 0.635),
+      #0c7a57ed,
+      #002b1d
+    );
+    transition: 3s all;
+  }
+  from {
+    background: linear-gradient(
+      45deg,
+      #002b1d,
+      #0c7a57ed,
+      rgba(111, 111, 35, 0.635),
+      rgba(255, 255, 0, 0.282)
+    );
+    transition: 3s all;
+  }
+}
+.img12 a {
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+  
+}

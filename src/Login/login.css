@@ -1,0 +1,90 @@
+/* .LoginForm {
+  background-color: #a9d1dd;
+  animation: bg 10s infinite linear;
+  transition: 5s all;
+}
+@keyframes bg {
+  0% {
+    background-color: #b6efd4;
+  }
+  100% {
+    background-color: #a0ccda;
+  }
+}
+
+.LoginForm input {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+}
+.b1 {
+  display: flex;
+  flex-direction: row;
+
+} */
+/* #7BC950 #7CE577 #B6EFD4 #A0CCDA #A9D1DD
+
+/imagine prompt: A visually appealing and simple geometric pattern in vibrant shades of green and blue, with a soft gradient effect, creating an attractive and modern background for a website form, Artwork, digital design with clean lines and smooth color transitions, --ar 16:9 --v 5
+
+/imagine prompt: An elegant and minimalist composition featuring a seamless blend of soothing green and blue tones, with a subtle touch of gradient, providing an attractive and calming backdrop for a website form, Illustration, vector art with precise shapes and harmonious color palette, --ar 16:9 --v 5
+
+/imagine prompt: A clean and inviting design with a simple yet captivating arrangement of green and blue hues, exuding a sense of freshness and tranquility, perfect for enhancing the visual appeal of a website form, Photography, high-resolution image with soft lighting and natural textures, --ar 16:9 --v 5
+
+/imagine prompt: A modern and eye-catching background featuring a harmonious blend of green and blue shades, creating a visually appealing and inviting atmosphere for a website form, Digital Art, 3D rendering with smooth surfaces and subtle reflections, --ar 16:9 --v 5
+*/
+.LoginForm {
+  background-image: url("../assets/16.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150vh;
+}
+.b1 {
+  background-color: rgba(255, 255, 255, 0.323);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  height: 80vh;
+  width: 40vw;
+}
+.b1 form {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 60vh;
+  padding: 30px;
+  margin: 10px;
+  background-color: #002f4163;
+  color: white;
+  /* background-image: url("../assets/14.png");
+  background-size: cover; */
+}
+.b1 form input,
+.b1 form label {
+  width: 28vw;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  margin: 10px;
+}
+.b1 form button {
+  background-color: rgb(1, 26, 47);
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  width: 28vw;
+  border-radius: 10px;
+}
+.linkk {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}

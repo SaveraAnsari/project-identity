@@ -1,0 +1,74 @@
+/* #7BC950 */
+/* #7CE577
+#B6EFD4
+#A0CCDA
+#A9D1DD
+*/
+.marriage-form-container {
+  /* background: url("../../assets//marriage1.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.marriage-form {
+  background-color: rgba(17, 141, 208, 0.258);
+  /* width: px; */
+  width: 40vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 50px;
+  font-size: 24px;
+  border-radius: 10px;
+  margin: 25px;
+}
+.marriage-form input {
+  width: 320px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+.marriage-form input[type="checkbox"] {
+  border: 2px solid black;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  /* margin-top: -45px; */
+}
+.marriage-form button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #7ac950bb;
+}
+.marriage-form button:hover {
+  color: black;
+  background-color: #6dd368a7;
+}
+.marriage-form input[type="radio"] {
+  padding: 0;
+  width: 30px;
+  margin: 0;
+  padding-top: 20px;
+}
+.radioo {
+  border: "none";
+  margin: 0;
+  padding: 0;
+  box-shadow: "none";
+  width: "30px";
+}
+.marriage-form textarea {
+ 
+  padding: 0px 10px 50px 10px;
+}
